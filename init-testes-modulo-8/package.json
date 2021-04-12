@@ -1,0 +1,16 @@
+{
+  "name": "init-testes-modulo-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec **/*.test.js",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- --reporter spec **/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.3.2",
+    "sinon": "^10.0.0"
+  }
+}
